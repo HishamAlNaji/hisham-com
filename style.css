@@ -1,0 +1,43 @@
+header {
+    background-color: #FF744A;
+    text-align:center ;
+    color: #FFF769;
+    padding: 8px;
+    font-size: 25px;
+}
+nav {
+    background-color: #EBBD6A;
+
+}
+nav ul {
+    margin: 0px;
+    padding: 8px;
+    list-style: none;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 24px;
+
+  }
+a{
+    color: #F0FFB3;
+}
+
+main {
+    color:  #FF744A;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+main h3 {
+
+font-size: 35px;
+}
+body{
+    background-color: #FFF769;
+}
+
+
