@@ -22,7 +22,7 @@ nav ul {
 
   }
 a{
-    color: #F0FFB3;
+    color: #F0FFB3
 }
 
 main {
@@ -35,9 +35,12 @@ main {
 main h3 {
 
 font-size: 35px;
+
 }
 body{
     background-color: #FFF769;
 }
 
-
+img {
+    float: left;
+}
