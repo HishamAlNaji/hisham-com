@@ -13,23 +13,28 @@
 // document.write('<h3>'+greeting+'</h3>');
 
 'use strict';
-var answer;
-var username;
 
-var savenv = prompt("Do you want to save the enivroment(yes/no)");
-if (savenv == "yes") {
-    answer = confirm('COOL ! NOW you should read some of our advices');
-} else if  (savenv == "no"){
-    answer = confirm('WHY !! YOU SHOULD read some of our advices to change your mind');
+function userExperience(){
+    var answer;
+    var username ='';
+    
+    var savenv = prompt("Do you want to save the enivroment(yes/no)");
+    if (savenv == "yes") {
+        answer = confirm('COOL ! NOW you should read some of our advices');
+    } else if  (savenv == "no"){
+        answer = alert('WHY !! YOU SHOULD read some of our advices to change your mind');
+    }
+    
+    
+    if (savenv == "yes") {
+        username = prompt('please give us your name');
+    } else if ( savenv == "no") {
+        username = alert('thank you for your visiting');
+    }
+    return username;
 }
 
 
-if (savenv == "yes") {
-    username = prompt('please give us your name');
-} else if ( savenv == "no") {
-    username = confirm('thank you for your visiting');
-}
 
-document.write('Welcome '+ username)
 
 
