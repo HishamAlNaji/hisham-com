@@ -27,31 +27,25 @@ function userExperience() {
             answer = alert('WHY !! YOU SHOULD read some of our advices to change your mind');
         }
     }
-
-
     if (savenv == "yes") {
         username = prompt('please give us your name', 'Guest');
     } else if (savenv == "no") {
         username = alert('thank you for your visiting');
     }
-
-
     return username;
-
 }
-
 
 function userPrize() {
 
     var stars = prompt("how many stars do you want to achieve in this session by reading instructions?")
-    var prize = 0 ;
+    var prize = '';
 
     for (var i = 0; i < stars; i++) {
 
-        prize = prize + 1 ;
+        prize = prize + '*';
     }
 
-    return prize ;
+    return prize;
 
 }
 
