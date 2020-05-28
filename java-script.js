@@ -49,5 +49,11 @@ function userPrize() {
 
 }
 
+while(((2 * 90) === 180) && (false && 'true')){
+
+    
+
+
+}
 
 

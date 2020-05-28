@@ -40,3 +40,8 @@ font-size: 35px;
 body{
     background-color: #FFF769;
 }
+
+img {
+
+    float: left;
+}
